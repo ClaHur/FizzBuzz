@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/ClaHur/FizzBuzz/issues"
   },
-  "homepage": "https://github.com/ClaHur/FizzBuzz#readme"
+  "homepage": "https://github.com/ClaHur/FizzBuzz#readme",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
 }

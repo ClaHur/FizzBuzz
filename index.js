@@ -1,20 +1,11 @@
 //Simple
-/* for(i=1;i<=100;i++){
+for(i=1;i<=100;i++){
     console.log(i%15==0?"FizzBuzz":i%5==0?"Buzz":i%3==0?"Fizz":i);
-} */
+}
 
 //Less Simple
 var log = "";
-const prompt = require('prompt-sync')(); //Load prompt for NodeJS
-var max = "";
-while (!Number.isInteger(max)) {
-    max = prompt('What number would you like to go up to?'); //Take user input for max value
-    max = parseFloat(max);
-    if (!Number.isInteger(max)) {
-        console.log("Invalid input, please try again.") //Prompt user to enter another value if they don't enter an integer
-    }
-}
-for (i = 1; i <= max; i++) {
+for (i = 1; i <= 255; i++) {
     log = "";
     i % 3 == 0 ? log += "Fizz" : log;
     i % 5 == 0 ? log += "Buzz" : log;

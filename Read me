@@ -1,1 +1,7 @@
 FizzBuzz
+
+Index: Basic FizzBuzz implementation
+Stretch: User chooses own rules and limits for FizzBuzz
+StretchFunc: Holds the functions used in Stretch
+StretchTimings: Attempting to make inputs more user friendly by delaying logging
+
